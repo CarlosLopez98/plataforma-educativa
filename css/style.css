@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #f0f0f0;
+    --white-color: #fff;
+    --black-color: #000;
+    --main-color: #2d5dff;
+    --main-color-hover: #224bd1;
+    --link-color-1: #2b95f3;
+}
+
+body {
+    width: 100%;
+    background-color: var(--bg-color);
+}
+
+.header {
+    width: 100%;
+    display: inline-block;
+    background-color: var(--main-color);
+}
+
+.header-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-content .logo {
+    width: 92%;
+    float: left;
+}
+
+.header-content .logo img {
+    width: 160px;
+    float: left;
+    margin: 20px 0;
+}
+
+.header-content .logo h1 {
+    color: var(--white-color);
+    float: left;
+    font-size: 2.125rem;
+    font-weight: 400;
+    margin: 20px 18%;
+    text-align: center;
+}
+
+.header-content .user-options {
+    padding-top: 20px;
+    padding-left: 10px;
+    width: 8%;
+    float: left;
+}
+
+.header-content .user-options span {
+    font-size: 1.875rem;
+    color: var(--white-color);
+    float: left;
+}
+
+.header-content .user-options .icon-mini {
+    font-size: 0.75rem;
+    float: left;
+    margin-top: 7px;
+}
+
+.header-content .navbar {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+
+.header-content .navbar .bar {
+    width: 100%;
+    display: inline-block;
+}
+
+.header-content .navbar .bar li {
+    float: left;
+    width: 16.666666%;
+    height: 40px;
+    list-style: none;
+}
+
+.header-content .navbar .bar li:hover {
+    background-color: var(--main-color-hover);
+}
+
+.header-content .navbar .bar li a {
+    text-align: center;
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.header-content .navbar .bar li a .link {
+    width: 100%;
+    height: 40px;
+}
+
+.header-content .navbar .bar li a .link span {
+    font-size: 1.875rem;
+    margin-right: 5px;
+}
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 1024px) {
+    .header-content {
+        width: 100%;
+    }
+}
